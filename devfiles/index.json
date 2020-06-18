@@ -7,10 +7,10 @@
       "Express",
       "ubi8"
     ],
-    "projectType": "nodejs",
+    "projectType": "ey-nodejs",
     "language": "nodejs",
     "links": {
-      "self": "/devfiles/nodejs/devfile.yaml"
+      "self": "/devfiles/ey-nodejs/devfile.yaml"
     }
   }
 ]
