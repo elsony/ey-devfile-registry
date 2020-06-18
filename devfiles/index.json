@@ -12,5 +12,14 @@
     "links": {
       "self": "/devfiles/ey-nodejs/devfile.yaml"
     }
+  },
+  {
+    "displayName": "Open Liberty",
+    "description": "Open Liberty microservice in Java",
+    "projectType": "docker",
+    "language": "java",
+    "links": {
+      "self": "/devfiles/openLiberty/devfile.yaml"
+    }
   }
 ]
