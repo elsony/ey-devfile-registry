@@ -6,11 +6,12 @@ projects:
     source:
       type: git
       location: "https://github.com/elsony/ey-nodejs-ex.git"
+      sparseCheckoutDir: /default
   - name: demo2
     source:
       type: git
       location: "https://github.com/elsony/ey-nodejs-ex.git"
-      branch: demo2
+      sparseCheckoutDir: /demo2
 components:
   - type: dockerimage
     alias: runtime
