@@ -1,66 +1,16 @@
 [
   {
-    "displayName": "Maven Java",
-    "description": "Upstream Maven and OpenJDK 11",
-    "tags": [
-      "Java",
-      "Maven"
-    ],
-    "projectType": "maven",
-    "language": "java",
-    "links": {
-      "self": "/devfiles/maven/devfile.yaml"
-    }
-  },
-  {
     "displayName": "NodeJS Express Web Application",
-    "description": "Stack with NodeJS 10",
+    "description": "Elson's Stack with NodeJS 10",
     "tags": [
       "NodeJS",
       "Express",
       "ubi8"
     ],
-    "projectType": "nodejs",
+    "projectType": "ey-nodejs",
     "language": "nodejs",
     "links": {
-      "self": "/devfiles/nodejs/devfile.yaml"
-    }
-  },
-  {
-    "displayName": "Open Liberty",
-    "description": "Open Liberty microservice in Java",
-    "projectType": "docker",
-    "language": "java",
-    "links": {
-      "self": "/devfiles/openLiberty/devfile.yaml"
-    }
-  },
-  {
-    "displayName": "Spring Boot®",
-    "description": "Spring Boot® using Java",
-    "tags": [
-      "Java",
-      "Spring"
-    ],
-    "globalMemoryLimit": "2674Mi",
-    "icon": "https://www.eclipse.org/che/images/logo-eclipseche.svg",
-    "projectType": "spring",
-    "language": "java",
-    "links": {
-      "self": "/devfiles/springBoot/devfile.yaml"
-    }
-  },
-  {
-    "displayName": "Quarkus Java",
-    "description": "Upstream Quarkus with Java+GraalVM",
-    "tags": [
-      "Java",
-      "Quarkus"
-    ],
-    "projectType": "quarkus",
-    "language": "java",
-    "links": {
-      "self": "/devfiles/quarkus/devfile.yaml"
+      "self": "/devfiles/ey-nodejs/devfile.yaml"
     }
   }
 ]
