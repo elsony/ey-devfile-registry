@@ -5,13 +5,11 @@ projects:
   - name: nodejs-web-app
     source:
       type: git
-      location: "https://github.com/elsony/ey-nodejs-ex2.git"
-      sparseCheckoutDir: /default
+      location: "https://github.com/elsony/ey-nodejs-ex.git"
   - name: demo2
     source:
       type: git
       location: "https://github.com/elsony/ey-nodejs-ex2.git"
-      sparseCheckoutDir: /demo2
 components:
   - type: dockerimage
     alias: runtime
