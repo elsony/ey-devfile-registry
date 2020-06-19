@@ -2,14 +2,11 @@ apiVersion: 1.0.0
 metadata:
   generateName: ey-nodejs
 projects:
-  - name: nodejs-web-app
+  - 
+    name: nodejs-web-app
     source:
       type: git
       location: "https://github.com/elsony/ey-nodejs-ex.git"
-  - name: demo2
-    source:
-      type: git
-      location: "https://github.com/elsony/ey-nodejs-ex2.git"
 components:
   - type: dockerimage
     alias: runtime
